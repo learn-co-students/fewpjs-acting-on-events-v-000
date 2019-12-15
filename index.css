@@ -1,12 +1,15 @@
+/* Diagram of this workspace is available here: */
+/* https://i.imgur.com/DCwP5pu.jpg#dodger { */
+
 #dodger {
-  background-color: white;
+  background-color: red;
   height: 20px;
   position: absolute;
   width: 40px;
 }
 
 #game {
-  background-color: #111;
+  background-color: green;
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
@@ -23,7 +26,8 @@
   top: 4rem;
 }
 
-.rock {
+/* it appears that these CSS blocks do nothing.
+rock {
   width: 20px;
   height: 20px;
   background: tan;
