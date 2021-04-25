@@ -14,7 +14,7 @@ function moveDodgerRight(){
     let left = getLeftNumbers();
     let right = left + dodgerWidth;
 
-    if (right < gameRightBorder -1){
+    if (right < 181){
         dodger.style.left = `${left +1}px`;
     }
 }
